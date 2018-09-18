@@ -1,0 +1,4 @@
+#Wed Sep 05 13:30:51 EET 2018
+base.0=C\:\\Users\\Ebram\\AndroidStudioProjects\\AndroidViewpagerExample\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\255
+path.0=classes.dex
+renamed.0=classes.dex

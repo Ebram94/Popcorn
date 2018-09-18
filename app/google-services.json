@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "332146708123",
+    "firebase_url": "https://popcorn-9cf29.firebaseio.com",
+    "project_id": "popcorn-9cf29",
+    "storage_bucket": "popcorn-9cf29.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332146708123:android:7c27d4d660391f8b",
+        "android_client_info": {
+          "package_name": "com.androidtutorialpoint.androidviewpagerexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332146708123-ih2p7l0ekgqt1mq6cupfnnff67rbvdoo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnqf04hn_74jdUrUWpGjKpueQvVhPE5HI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

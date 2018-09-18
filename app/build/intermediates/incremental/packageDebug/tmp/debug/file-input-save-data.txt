@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Wed Sep 05 13:31:01 EET 2018
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\Ebram\\AndroidStudioProjects\\AndroidViewpagerExample\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\255
+0.path=classes.dex
+0.set=DEX
+count=1
