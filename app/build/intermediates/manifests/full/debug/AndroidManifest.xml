@@ -27,6 +27,11 @@
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
     <uses-feature
         android:glEsVersion="0x00020000"
         android:required="true" />
@@ -47,9 +52,10 @@
         android:icon="@drawable/logo"
         android:label="CinemaTime"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme.NoActionBar" >
         <activity
-            android:name="com.androidtutorialpoint.androidviewpagerexample.MainActivity"
+            android:name="com.androidtutorialpoint.androidviewpagerexample.View.MainActivity"
             android:label="CinemaTime"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
@@ -59,7 +65,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.androidtutorialpoint.androidviewpagerexample.Splash"
+            android:name="com.androidtutorialpoint.androidviewpagerexample.View.Splash"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
@@ -69,7 +75,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.androidtutorialpoint.androidviewpagerexample.MovieDetials"
+            android:name="com.androidtutorialpoint.androidviewpagerexample.View.MovieDetials"
             android:theme="@style/AppTheme" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -84,11 +90,15 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name="com.androidtutorialpoint.androidviewpagerexample.MapsActivity"
+            android:name="com.androidtutorialpoint.androidviewpagerexample.View.MapsActivity"
             android:label="@string/title_activity_maps" />
         <activity
-            android:name="com.androidtutorialpoint.androidviewpagerexample.MapsActivity2"
+            android:name="com.androidtutorialpoint.androidviewpagerexample.View.MapsActivity2"
             android:label="@string/title_activity_maps2" />
+        <activity
+            android:name="com.androidtutorialpoint.androidviewpagerexample.View.Login_Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.androidtutorialpoint.androidviewpagerexample.View.Sign_Up" />
         <activity
             android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
             android:excludeFromRecents="true"

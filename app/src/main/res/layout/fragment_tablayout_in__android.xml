@@ -2,7 +2,7 @@
              xmlns:tools="http://schemas.android.com/tools"
              android:layout_width="match_parent"
              android:layout_height="match_parent"
-             tools:context="com.androidtutorialpoint.androidviewpagerexample.Tablayout_in_Android">
+             tools:context="com.androidtutorialpoint.androidviewpagerexample.View.Tablayout_in_Android">
 
     <!-- TODO: Update blank fragment layout -->
     <GridView
